@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact_Form_style.css">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <title>Document</title>
+    </head>
+            <body>
+
+
+              <div class="navbar">
+                <a href="HOME.html"><i class="fa fa-fw fa-home"></i> HOME</a> 
+                <a href="ABOUT.html"><i class="fa fa-fw fa-search"></i> ABOUT</a> 
+                <a href="SKILLS AND EXPERIENCE.html"><i class="fa fa-fw fa-envelope"></i> SKILLS AND EXPERIENCE</a> 
+                <a class="active" href="#contact_Form."><i class="fa fa-fw fa-envelope"></i> contact-form</a>
+            </div>
+
+
+
+                <div class="contact-form">
+                    <h1>Contact me</h1>
+                        <form id="contact-form">
+                        <div class="txtb">
+                            <label>Name</label>
+                            <input id="name" type="name" name="full name"  value="" placeholder="Enter Your Name">
+                        </div>
+                    
+                        <div class="txtb">
+                            <label>Email</label>
+                            <input id="email" type="email" name="email address"  value="" placeholder="Enter Your email">
+                        </div>
+                    
+        
+                        <div class="txtb">
+                            <label>Phone Number</label>
+                            <input id="phone" type="phone number" name="phone number"  value="" placeholder="Enter Your Phone Number">
+                        </div>
+                    
+        
+
+                        <div class="txtb">
+                            <label>Message</label>
+                            <textarea id="message"></textarea>
+                        </div>
+                        <div class="txtb">
+                            
+                        <div class="g-recaptcha" data-sitekey="6Lfv4tgUAAAAAKSjdor03Ke4kx8IF77IYC8xATc4"></div>
+
+                        <input type="submit" value="submit">
+                    </form>
+                    </div>
+                </div>
+    
+
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase.js"></script>
+<script src="main.js"></script>
+
+            </body>
+
+</html>

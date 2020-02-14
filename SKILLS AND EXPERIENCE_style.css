@@ -1,0 +1,58 @@
+body{
+  background-color:lightslategray;
+  background-size: cover;
+  height: 50vh;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+   flex-direction: row;
+  }
+  
+  .navbar a {
+    float: right;
+    padding: 11px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  * {box-sizing: border-box}
+
+.container {
+  width: 40%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20PX;
+  background-color: #4CAF50;
+
+}
